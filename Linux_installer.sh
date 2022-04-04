@@ -9,3 +9,5 @@ pip install translate
 pip install os
 
 echo "Operations completed"
+echo "By MikeTheHash"
+
