@@ -6,7 +6,8 @@ try:
 	os.system("figlet WikiPedia-Resoomer")
 	print("By MikeTheHash")
 except:
-	print("Wikipedia-Resoomer By MikeTheHash")
+	print("Wikipedia-Resoomer")
+	print(Fore.MAGENTA, "By MikeTheHash")
 def riassumi():
 	input0 = input("Wikipedia topic to summarize >")
 	try:
@@ -16,7 +17,7 @@ def riassumi():
 	except:
 		print(Back.RED, Fore.WHITE, "Error: Topic NOT FOUND (404)")
 		print(Style.RESET_ALL)
-	print("Select from_lang (Language to translate) to to_lang (Language of translation) \nDefault: from_lang: en; to_lang: it")
+	print("Select from_lang (Language to translate) and to_lang (Language of translation) \nDefault: from_lang: en; to_lang: it")
 	input1 = input("From Lang (Default: En) >  ")
 	input2 = input("To Lang (Default: it) > ")
 	default_from_lang = "en"
