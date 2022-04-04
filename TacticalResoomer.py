@@ -6,7 +6,7 @@ try:
 	os.system("figlet AutoSummary")
 	print("By MikeTheHash")
 except:
-	print("Wikipedia-Resoomer")
+	print("AutoSummary")
 	print(Fore.MAGENTA, "By MikeTheHash")
 def riassumi():
 	input0 = input("Wikipedia topic to summarize >")
