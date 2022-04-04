@@ -2,9 +2,11 @@ import wikipedia
 from colorama import Back, Fore
 from translate import Translator
 import os
-
-os.system("figlet WikiPedia-Resoomer")
-
+try:
+	os.system("figlet WikiPedia-Resoomer")
+	print("By MikeTheHash")
+except:
+	print("Wikipedia-Resoomer By MikeTheHash")
 def riassumi():
 	input0 = input("Wikipedia topic to summarize >")
 	try:
