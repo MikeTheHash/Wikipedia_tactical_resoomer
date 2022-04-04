@@ -3,8 +3,8 @@ from colorama import Back, Fore
 from translate import Translator
 import os
 try:
-	os.system("figlet AutoSummary")
-	print("By MikeTheHash")
+	os.system(Fore.MAGENTA, "figlet AutoSummary")
+	print(Fore.MAGENTA, "By MikeTheHash")
 except:
 	print("AutoSummary")
 	print(Fore.MAGENTA, "By MikeTheHash")
