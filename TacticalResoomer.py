@@ -5,6 +5,7 @@ import os
 try:
 	os.system("figlet AutoSummary")
 	print(Fore.MAGENTA, "By MikeTheHash")
+	print(Style.RESET_ALL)
 except:
 	print("AutoSummary")
 	print(Fore.MAGENTA, "By MikeTheHash")
