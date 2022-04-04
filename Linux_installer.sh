@@ -1,4 +1,5 @@
 echo "Installing Figlet..."
+echo "Please enter your sudo password"
 sudo apt-get install figlet
 
 echo "Installing external libraries"
