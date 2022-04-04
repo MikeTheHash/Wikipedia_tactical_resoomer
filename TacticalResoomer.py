@@ -3,7 +3,7 @@ from colorama import Back, Fore
 from translate import Translator
 import os
 try:
-	os.system("figlet WikiPedia-Resoomer")
+	os.system("figlet AutoSummary")
 	print("By MikeTheHash")
 except:
 	print("Wikipedia-Resoomer")
