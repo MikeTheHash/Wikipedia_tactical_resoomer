@@ -1,6 +1,8 @@
-echo "Installing Figlet..."
+echo "Installing Figlet and python..."
 echo "Please enter your sudo password"
 sudo apt-get install figlet
+sudo apt-get install python3
+sudo apt-get install python3-pip
 
 echo "Installing external libraries"
 pip install wikipedia
