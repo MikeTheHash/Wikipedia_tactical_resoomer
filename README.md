@@ -25,4 +25,4 @@ Create summaries automatically with Tactical Resoomer! Summaries Relevant and sy
     cd Wikipedia_tactical_resoomer
     pip install -r requirements.txt
     python3 TacticalResoomer.py
-#### If you don't have python download it from the [Official Site](www.python.org)
+#### If you don't have python download it from the [Official Site](https://www.python.org)
